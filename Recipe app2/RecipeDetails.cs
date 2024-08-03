@@ -7,7 +7,7 @@ namespace Recipe_app2
     // Define a delegate for notification
     delegate void NotificationDelegate();
 
-    class Ingredientinfo // This class holds the ingredient information. it also includes getters and setters to get and set the ingredient information.
+    class Ingredientinfo // This class holds the ingredient information. It also includes getters and setters to get and set the ingredient information.
     {
         public string Name { get; }
         public double Quantity { get; set; }
